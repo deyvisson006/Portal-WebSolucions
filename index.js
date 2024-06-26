@@ -45,7 +45,7 @@ app.get('/loja', (req, res) =>{
 
 
 app.use((req, res) =>{
-    res.status(404).send("Página não encontrada")
+    res.status(404).sendFile(__dirname + "/public/erro.html")
 })
 
 
