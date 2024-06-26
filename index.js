@@ -43,9 +43,6 @@ app.get('/loja', (req, res) =>{
     res.redirect('https://shopee.com.br')
 })
 
-app.get('/arquivo', (req, res) =>{
-    res.sendFile(__dirname = '/Aula 3 - UC 13.pdf')
-})
 
 app.use((req, res) =>{
     res.status(404).send("Página não encontrada")
