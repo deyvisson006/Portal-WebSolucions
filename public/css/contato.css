@@ -1,0 +1,58 @@
+/* Estilos para a seção de contato */
+#contato {
+    padding: 20px;
+    background-color: #f8f9fa; /* Cor de fundo suave */
+    border: 1px solid #dee2e6; /* Borda leve */
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+/* Estilos para os cabeçalhos */
+#contato h3 {
+    color: #007bff; /* Cor do texto */
+    margin-top: 0;
+}
+
+/* Estilos para as listas de itens */
+#contato ul {
+    list-style-type: disc; /* Estilo de lista com marcadores */
+    padding-left: 20px;
+}
+
+/* Estilos para os parágrafos */
+#contato p {
+    line-height: 1.6;
+}
+
+/* Estilos para as linhas horizontais */
+#contato hr {
+    border-color: #007bff; /* Cor da linha */
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/* Estilos para os links dentro da seção de contato */
+#contato a {
+    color: #007bff; /* Cor dos links */
+    text-decoration: none; /* Sem sublinhado */
+    transition: color 0.2s;
+}
+
+#contato a:hover {
+    color: #0056b3; /* Mudança de cor ao passar o mouse */
+}
+
+/* Estilos para os botões dentro do formulário */
+#contato button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contato button:hover {
+    background-color: #0056b3; /* Mudança de cor ao passar o mouse */
+}
